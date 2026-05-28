@@ -1,0 +1,35 @@
+#snake {
+  display: table;
+  border: 1px solid #000;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white !important;
+}
+
+.row {
+  display: table-row;
+  border-top: 1px solid #000;
+  border-collapse: collapse;
+}
+
+.cell {
+  display: table-cell;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+.row .cell:first-child {
+  border-left: none;
+}
+
+.row .cell:last-child {
+  border-right: none;
+}
+
+.isSnake {
+  background-color: #fff000;
+}
+
+.isItem {
+  background-color: #ff0000;
+}
